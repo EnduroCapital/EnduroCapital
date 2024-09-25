@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Meta Tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enduro Capital - Empowering Growth in Logistics</title>
     <meta name="description" content="Enduro Capital empowers growth in logistics by partnering with SMEs in the Dutch logistics sector.">
     <meta name="keywords" content="Enduro Capital, logistics, investment, Netherlands, private equity">
-    <!-- Preconnect to optimize font loading -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Preconnect for Font Loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Font Awesome for icons -->
+
+    <!-- Custom Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=General+Sans:wght@500;600&family=Uncut+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2qnC-6PKAi2+F0q5S1LZ5yFle35am74/DkNkW3W6I+hJcFZXemYZoB" crossorigin="anonymous">
-    <!-- Custom CSS -->
+
+    <!-- Link to Your Provided Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Additional Styles (if any) -->
+    <!-- <link rel="stylesheet" href="additional-styles.css"> -->
 </head>
 <body>
 
@@ -24,16 +33,18 @@
                     <img src="endurocapital.png" alt="Enduro Capital Logo" class="brand">
                 </a>
                 <button class="menu-button" aria-label="Toggle navigation" aria-controls="nav-menu" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar bottom"></div>
                 </button>
-                <ul id="nav-menu" class="nav-menu">
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#approach" class="nav-link">Our Approach</a></li>
-                    <li><a href="#investment-criteria" class="nav-link">Investment Criteria</a></li>
-                    <li><a href="#team" class="nav-link">Team</a></li>
-                    <li><a href="#careers" class="nav-link">Careers</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
+                <div id="nav-menu" class="nav-menu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#approach" class="nav-link">Our Approach</a>
+                    <a href="#investment-criteria" class="nav-link">Investment Criteria</a>
+                    <a href="#team" class="nav-link">Team</a>
+                    <a href="#careers" class="nav-link">Careers</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -42,96 +53,123 @@
     <main>
 
         <!-- Hero Section -->
-        <section id="home" class="hero-section section">
+        <section id="home" class="section hero-padding">
             <div class="container">
-                <div class="hero-content">
-                    <h1>Empowering Growth in Logistics</h1>
-                    <p class="hero-subtitle">Investing in the Future of Dutch Logistics Companies</p>
-                    <a href="#contact" class="cta-button">Get in Touch</a>
-                </div>
-                <div class="hero-image">
-                    <img src="hero-image.jpg" alt="Logistics operations with cargo containers">
+                <div class="wrapper align-center">
+                    <div class="content-width-hero">
+                        <h1>Empowering Growth in Logistics</h1>
+                        <p class="large-text">Investing in the Future of Dutch Logistics Companies</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="button">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <img src="hero-image.jpg" alt="Logistics operations with cargo containers">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- About Us Section -->
-        <section id="about" class="about-section section">
+        <section id="about" class="section">
             <div class="container">
-                <h2>About Enduro Capital</h2>
-                <p class="section-subtitle">Investing in the Heart of Dutch Logistics</p>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            Enduro Capital is a private equity firm dedicated to fostering growth in small and medium-sized enterprises (SMEs) within the Dutch logistics sector. We specialize in acquiring and investing in logistics companies that own real estate assets integral to their operations.
-                        </p>
-                        <p>
-                            Our mission is to empower these businesses to reach new heights by providing the capital, expertise, and strategic support they need to thrive in a competitive market.
-                        </p>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>About Enduro Capital</h2>
+                        <p class="large-text">Investing in the Heart of Dutch Logistics</p>
                     </div>
-                    <div class="about-image">
-                        <img src="about-image.jpg" alt="Enduro Capital team discussing logistics investments">
+                    <div class="grid-halves">
+                        <div class="grid-first-half">
+                            <div class="rich-text width-s">
+                                <p>
+                                    Enduro Capital is a private equity firm dedicated to fostering growth in small and medium-sized enterprises (SMEs) within the Dutch logistics sector. We specialize in acquiring and investing in logistics companies that own real estate assets integral to their operations.
+                                </p>
+                                <p>
+                                    Our mission is to empower these businesses to reach new heights by providing the capital, expertise, and strategic support they need to thrive in a competitive market.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-second-half">
+                            <img src="about-image.jpg" alt="Enduro Capital team discussing logistics investments">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Our Approach Section -->
-        <section id="approach" class="approach-section section">
+        <section id="approach" class="section light-background">
             <div class="container">
-                <h2>Our Approach</h2>
-                <p class="section-subtitle">Strategic Partnerships for Sustainable Growth</p>
-                <div class="approach-content">
-                    <div class="approach-text">
-                        <p>
-                            At Enduro Capital, we believe in building lasting partnerships with the companies we invest in. Our approach is centered around understanding the unique challenges and opportunities within the logistics industry.
-                        </p>
-                        <ul>
-                            <li>We provide not just capital but also strategic guidance.</li>
-                            <li>Our team works closely with management to enhance operational efficiency.</li>
-                            <li>We focus on long-term growth and value creation.</li>
-                        </ul>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>Our Approach</h2>
+                        <p class="large-text">Strategic Partnerships for Sustainable Growth</p>
                     </div>
-                    <div class="approach-image">
-                        <img src="approach-image.jpg" alt="Strategic planning session at Enduro Capital">
+                    <div class="grid-halves flip-direction">
+                        <div class="grid-first-half">
+                            <img src="approach-image.jpg" alt="Strategic planning session at Enduro Capital">
+                        </div>
+                        <div class="grid-second-half">
+                            <div class="rich-text width-s">
+                                <p>
+                                    At Enduro Capital, we believe in building lasting partnerships with the companies we invest in. Our approach is centered around understanding the unique challenges and opportunities within the logistics industry.
+                                </p>
+                                <ul class="list">
+                                    <li class="list-item">
+                                        <div class="bullet-dot-2"></div>
+                                        <p>We provide not just capital but also strategic guidance.</p>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="bullet-dot-2"></div>
+                                        <p>Our team works closely with management to enhance operational efficiency.</p>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="bullet-dot-2"></div>
+                                        <p>We focus on long-term growth and value creation.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Investment Criteria Section -->
-        <section id="investment-criteria" class="investment-section section">
+        <section id="investment-criteria" class="section">
             <div class="container">
-                <h2>Investment Criteria</h2>
-                <p class="section-subtitle">Seeking Companies with Growth Potential</p>
-                <div class="investment-content">
-                    <div class="investment-text">
-                        <p>
-                            We are actively seeking partnerships with companies that align with our investment philosophy. Our focus is on businesses that demonstrate strong potential for growth and share our commitment to excellence.
-                        </p>
-                        <p>
-                            If your company meets the following criteria, we would be interested in exploring a partnership:
-                        </p>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>Investment Criteria</h2>
+                        <p class="large-text">Seeking Companies with Growth Potential</p>
                     </div>
-                    <div class="criteria-grid">
-                        <div class="criteria-item">
-                            <i class="fas fa-industry"></i>
-                            <h3>Industry Focus</h3>
+                    <div class="grid-thirds">
+                        <div class="grid-tile features">
+                            <div class="tile-icon">
+                                <i class="fas fa-industry fa-2x"></i>
+                            </div>
+                            <h3 class="tile-title">Industry Focus</h3>
                             <p>Logistics companies in the Netherlands, including transportation, fulfillment, and warehousing.</p>
                         </div>
-                        <div class="criteria-item">
-                            <i class="fas fa-building"></i>
-                            <h3>Asset Ownership</h3>
+                        <div class="grid-tile features">
+                            <div class="tile-icon">
+                                <i class="fas fa-building fa-2x"></i>
+                            </div>
+                            <h3 class="tile-title">Asset Ownership</h3>
                             <p>Companies owning real estate assets integral to their operations.</p>
                         </div>
-                        <div class="criteria-item">
-                            <i class="fas fa-chart-line"></i>
-                            <h3>Financial Metrics</h3>
+                        <div class="grid-tile features">
+                            <div class="tile-icon">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                            </div>
+                            <h3 class="tile-title">Financial Metrics</h3>
                             <p>Minimum €2M in revenues and €300K EBITDA.</p>
                         </div>
-                        <div class="criteria-item">
-                            <i class="fas fa-handshake"></i>
-                            <h3>Ownership</h3>
+                        <div class="grid-tile features">
+                            <div class="tile-icon">
+                                <i class="fas fa-handshake fa-2x"></i>
+                            </div>
+                            <h3 class="tile-title">Ownership</h3>
                             <p>Seeking majority stake acquisitions for active strategic involvement.</p>
                         </div>
                     </div>
@@ -140,104 +178,144 @@
         </section>
 
         <!-- Team Section -->
-        <section id="team" class="team-section section">
+        <section id="team" class="section light-background">
             <div class="container">
-                <h2>Our Team</h2>
-                <p class="section-subtitle">Experienced Professionals Dedicated to Your Success</p>
-                <div class="team-grid">
-                    <!-- Gianni Vulcano -->
-                    <div class="team-member">
-                        <img src="gianni-vulcano.jpg" alt="Portrait of Gianni Vulcano">
-                        <h3>Gianni Vulcano</h3>
-                        <h4>Co-Founder &amp; Logistics Real Estate Expert</h4>
-                        <p>
-                            Gianni brings over 15 years of experience in logistics real estate. He has a proven track record of optimizing supply chain efficiency through strategic property investments and operational excellence.
-                        </p>
-                        <a href="#contact" class="learn-more">Contact Gianni</a>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>Our Team</h2>
+                        <p class="large-text">Experienced Professionals Dedicated to Your Success</p>
                     </div>
-                    <!-- Martijn de Blaey -->
-                    <div class="team-member">
-                        <img src="martijn-de-blaey.jpg" alt="Portrait of Martijn de Blaey">
-                        <h3>Martijn de Blaey</h3>
-                        <h4>Co-Founder &amp; Private Equity Specialist</h4>
-                        <p>
-                            Martijn has extensive experience in private equity and corporate finance. His expertise lies in scaling businesses, strategic planning, and delivering value to stakeholders.
-                        </p>
-                        <a href="#contact" class="learn-more">Contact Martijn</a>
+                    <div class="grid-halves">
+                        <!-- Gianni Vulcano -->
+                        <div class="grid-tile team-member">
+                            <img src="gianni-vulcano.jpg" alt="Portrait of Gianni Vulcano" class="avatar">
+                            <div class="tile-info">
+                                <h3 class="team-name">Gianni Vulcano</h3>
+                                <h4 class="team-position">Co-Founder &amp; Logistics Real Estate Expert</h4>
+                                <p>
+                                    Gianni brings over 15 years of experience in logistics real estate. He has a proven track record of optimizing supply chain efficiency through strategic property investments and operational excellence.
+                                </p>
+                                <a href="#contact" class="button small">Contact Gianni</a>
+                            </div>
+                        </div>
+                        <!-- Martijn de Blaey -->
+                        <div class="grid-tile team-member">
+                            <img src="martijn-de-blaey.jpg" alt="Portrait of Martijn de Blaey" class="avatar">
+                            <div class="tile-info">
+                                <h3 class="team-name">Martijn de Blaey</h3>
+                                <h4 class="team-position">Co-Founder &amp; Private Equity Specialist</h4>
+                                <p>
+                                    Martijn has extensive experience in private equity and corporate finance. His expertise lies in scaling businesses, strategic planning, and delivering value to stakeholders.
+                                </p>
+                                <a href="#contact" class="button small">Contact Martijn</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Careers Section -->
-        <section id="careers" class="careers-section section">
+        <section id="careers" class="section">
             <div class="container">
-                <h2>Careers</h2>
-                <p class="section-subtitle">Join Our Team and Shape the Future of Logistics</p>
-                <div class="careers-grid">
-                    <!-- General Manager Position -->
-                    <div class="career-position">
-                        <h3>General Manager - Logistics Company</h3>
-                        <p>
-                            Lead operations at one of our portfolio companies. Ideal candidates will have strong leadership skills, experience in logistics management, and a passion for driving growth.
-                        </p>
-                        <a href="#contact" class="cta-button">Apply Now</a>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>Careers</h2>
+                        <p class="large-text">Join Our Team and Shape the Future of Logistics</p>
                     </div>
-                    <!-- Junior Investment Analyst Position -->
-                    <div class="career-position">
-                        <h3>Junior Investment Analyst</h3>
-                        <p>
-                            Support our investment team with market research, financial modeling, and due diligence. A great opportunity for recent graduates looking to start a career in private equity.
-                        </p>
-                        <a href="#contact" class="cta-button">Apply Now</a>
+                    <div class="grid-halves">
+                        <!-- General Manager Position -->
+                        <div class="grid-tile career-position">
+                            <h3 class="tile-title">General Manager - Logistics Company</h3>
+                            <p>
+                                Lead operations at one of our portfolio companies. Ideal candidates will have strong leadership skills, experience in logistics management, and a passion for driving growth.
+                            </p>
+                            <a href="#contact" class="button small">Apply Now</a>
+                        </div>
+                        <!-- Junior Investment Analyst Position -->
+                        <div class="grid-tile career-position">
+                            <h3 class="tile-title">Junior Investment Analyst</h3>
+                            <p>
+                                Support our investment team with market research, financial modeling, and due diligence. A great opportunity for recent graduates looking to start a career in private equity.
+                            </p>
+                            <a href="#contact" class="button small">Apply Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact-section section">
+        <section id="contact" class="section light-background">
             <div class="container">
-                <h2>Contact Us</h2>
-                <p class="section-subtitle">Let's Work Together</p>
-                <form action="contact-form-handler.php" method="post" class="contact-form">
-                    <div class="form-row">
-                        <label for="name">Your Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your Name" required>
-
-                        <label for="email">Your Email</label>
-                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <div class="wrapper">
+                    <div class="wrapper-header">
+                        <h2>Contact Us</h2>
+                        <p class="large-text">Let's Work Together</p>
                     </div>
-                    <label for="message">Your Message</label>
-                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="cta-button">Send Message</button>
-                </form>
+                    <div class="contact-form-wrapper">
+                        <form action="contact-form-handler.php" method="post" class="form">
+                            <div class="field-wrapper">
+                                <label for="name" class="field-label">Your Name</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required class="text-field spacing">
+                            </div>
+                            <div class="field-wrapper">
+                                <label for="email" class="field-label">Your Email</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email" required class="text-field spacing">
+                            </div>
+                            <div class="field-wrapper">
+                                <label for="message" class="field-label">Your Message</label>
+                                <textarea name="message" id="message" placeholder="Your Message" required class="text-field message"></textarea>
+                            </div>
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-logo">
-                <img src="endurocapital.png" alt="Enduro Capital Logo">
+    <footer class="section footer">
+        <div class="container">
+            <div class="footer-body">
+                <div class="footer-brand-info">
+                    <a href="#home" class="footer-brand-link">
+                        <img src="endurocapital.png" alt="Enduro Capital Logo" class="brand">
+                    </a>
+                    <p>Empowering Growth in Logistics</p>
+                </div>
+                <div class="footer-menu-wrapper">
+                    <h4 class="footer-menu-heading">Company</h4>
+                    <a href="#about" class="footer-menu-item">About</a>
+                    <a href="#approach" class="footer-menu-item">Our Approach</a>
+                    <a href="#investment-criteria" class="footer-menu-item">Investment Criteria</a>
+                </div>
+                <div class="footer-menu-wrapper">
+                    <h4 class="footer-menu-heading">Support</h4>
+                    <a href="#team" class="footer-menu-item">Team</a>
+                    <a href="#careers" class="footer-menu-item">Careers</a>
+                    <a href="#contact" class="footer-menu-item">Contact</a>
+                </div>
+                <div class="footer-menu-wrapper">
+                    <h4 class="footer-menu-heading">Follow Us</h4>
+                    <div class="author-social">
+                        <a href="https://www.linkedin.com/company/enduro-capital" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+                            <img src="linkedin-icon.svg" alt="LinkedIn" class="social-icon-image">
+                        </a>
+                        <!-- Add other social icons if needed -->
+                    </div>
+                </div>
             </div>
-            <ul class="footer-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#approach">Our Approach</a></li>
-                <li><a href="#investment-criteria">Investment Criteria</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#careers">Careers</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/company/enduro-capital" target="_blank" rel="noopener" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <!-- Add other social icons if needed -->
+            <div class="footer-base">
+                <div class="footer-base-left">
+                    <p>&copy; 2023 Enduro Capital. All rights reserved.</p>
+                </div>
+                <div class="footer-base-right">
+                    <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-of-service">Terms of Service</a></p>
+                </div>
             </div>
-            <p>&copy; 2023 Enduro Capital. All rights reserved.</p>
         </div>
     </footer>
 
